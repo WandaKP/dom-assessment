@@ -12,7 +12,7 @@ const template = `
 </ul>
 </section>
 `
-main.innerHtml = template
+main.innerHTML = template
 const p = document.createElement('p');
 p.textContent = "That's all folks!"
 main.appendChild(p);
